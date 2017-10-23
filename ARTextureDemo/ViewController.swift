@@ -9,6 +9,7 @@
 import UIKit
 import SceneKit
 import ARKit
+import SceneKit.ModelIO
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
@@ -24,7 +25,46 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        //let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene()
+        
+        let geometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.0)
+        let boxNode = SCNNode(geometry: geometry)
+        boxNode.position = SCNVector3Make(0, 0, -0.5)
+        let numFaces = 6
+        
+        
+        let bundle = Bundle.main
+        let path = bundle.path(forResource: "Boot_Shoot", ofType: "obj")
+        let url = NSURL(fileURLWithPath: path!)
+        let asset = MDLAsset(url: url as URL)
+        let object = asset.object(at: 0)
+        let shoeNode = SCNNode(mdlObject: object)
+        shoeNode.position = SCNVector3(-50, -50, 1)
+        //shoeNode.scale = SCNVector3(0.01, 0.01, 0.01)
+        
+        //scene.rootNode.addChildNode(boxNode)
+        scene.rootNode.addChildNode(shoeNode)
+        //let checkerImage = UIImage(named: "ShuttleDiffuseMap_.jpg")
+        let checkerImage = UIImage(named: "brownboot.jpg")
+        //let materialProp = SCNMaterialProperty(contents: checkerImage)
+        // create and configure a material for each face
+        var materials: [SCNMaterial] = Array()
+
+        let material = SCNMaterial()
+        material.diffuse.contents = checkerImage
+        materials.append(material)
+        
+        /*for i in 1...numFaces
+        {
+            let material = SCNMaterial()
+            material.diffuse.contents = checkerImage
+            materials.append(material)
+        }*/
+        
+        // set the material to the 3d object geometry
+        shoeNode.geometry?.materials = materials
+
         
         // Set the scene to the view
         sceneView.scene = scene

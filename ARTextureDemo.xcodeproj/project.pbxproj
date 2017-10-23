@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C809A6AC1F9AB8F400A247E9 /* bicycle.dae in Resources */ = {isa = PBXBuildFile; fileRef = C809A6AB1F9AB83500A247E9 /* bicycle.dae */; };
 		C8CCFA091F9AA56C00250E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CCFA081F9AA56C00250E47 /* AppDelegate.swift */; };
 		C8CCFA0B1F9AA56C00250E47 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CCFA0A1F9AA56C00250E47 /* art.scnassets */; };
 		C8CCFA0D1F9AA56C00250E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CCFA0C1F9AA56C00250E47 /* ViewController.swift */; };
@@ -15,6 +16,19 @@
 		C8CCFA151F9AA56C00250E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CCFA131F9AA56C00250E47 /* LaunchScreen.storyboard */; };
 		C8CCFA201F9AA56C00250E47 /* ARTextureDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CCFA1F1F9AA56C00250E47 /* ARTextureDemoTests.swift */; };
 		C8CCFA2B1F9AA56C00250E47 /* ARTextureDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CCFA2A1F9AA56C00250E47 /* ARTextureDemoUITests.swift */; };
+		C8CCFA391F9AB02500250E47 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = C8CCFA381F9AA90500250E47 /* checkerboard.png */; };
+		C8D8E8C41F9E4D2600A0D764 /* egg-chair.obj in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8C31F9E4D2500A0D764 /* egg-chair.obj */; };
+		C8D8E8C61F9E4D7400A0D764 /* TeaCup.obj in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8C51F9E4D7400A0D764 /* TeaCup.obj */; };
+		C8D8E8C81F9E5A4100A0D764 /* Tennis shoe.obj in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8C71F9E5A4100A0D764 /* Tennis shoe.obj */; };
+		C8D8E8CA1F9E5A4700A0D764 /* Tennis shoe_0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8C91F9E5A4700A0D764 /* Tennis shoe_0.jpeg */; };
+		C8D8E8CC1F9E9DEA00A0D764 /* space-shuttle.obj in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8CB1F9E9DE900A0D764 /* space-shuttle.obj */; };
+		C8D8E8CE1F9E9F9F00A0D764 /* ShuttleDiffuseMap_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8CD1F9E9F9F00A0D764 /* ShuttleDiffuseMap_.jpg */; };
+		C8D8E8D01F9EA09E00A0D764 /* Boot_Shoot.obj in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8CF1F9EA09E00A0D764 /* Boot_Shoot.obj */; };
+		C8D8E8D21F9EA09F00A0D764 /* Boot_Shoot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8D11F9EA09F00A0D764 /* Boot_Shoot.jpg */; };
+		C8D8E8D41F9EA15500A0D764 /* Boot_Shoot2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8D31F9EA15400A0D764 /* Boot_Shoot2.jpeg */; };
+		C8D8E8D61F9EA42D00A0D764 /* boot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8D51F9EA42D00A0D764 /* boot.jpg */; };
+		C8D8E8D81F9EA48800A0D764 /* blackboot.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8D71F9EA48800A0D764 /* blackboot.jpeg */; };
+		C8D8E8DA1F9EA52E00A0D764 /* brownboot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8D8E8D91F9EA52D00A0D764 /* brownboot.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C809A6AB1F9AB83500A247E9 /* bicycle.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = bicycle.dae; sourceTree = "<group>"; };
 		C8CCFA051F9AA56C00250E47 /* ARTextureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTextureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CCFA081F9AA56C00250E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8CCFA0A1F9AA56C00250E47 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +64,19 @@
 		C8CCFA261F9AA56C00250E47 /* ARTextureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTextureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CCFA2A1F9AA56C00250E47 /* ARTextureDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTextureDemoUITests.swift; sourceTree = "<group>"; };
 		C8CCFA2C1F9AA56C00250E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CCFA381F9AA90500250E47 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
+		C8D8E8C31F9E4D2500A0D764 /* egg-chair.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "egg-chair.obj"; sourceTree = "<group>"; };
+		C8D8E8C51F9E4D7400A0D764 /* TeaCup.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TeaCup.obj; sourceTree = "<group>"; };
+		C8D8E8C71F9E5A4100A0D764 /* Tennis shoe.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tennis shoe.obj"; sourceTree = "<group>"; };
+		C8D8E8C91F9E5A4700A0D764 /* Tennis shoe_0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tennis shoe_0.jpeg"; sourceTree = "<group>"; };
+		C8D8E8CB1F9E9DE900A0D764 /* space-shuttle.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "space-shuttle.obj"; sourceTree = "<group>"; };
+		C8D8E8CD1F9E9F9F00A0D764 /* ShuttleDiffuseMap_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShuttleDiffuseMap_.jpg; sourceTree = "<group>"; };
+		C8D8E8CF1F9EA09E00A0D764 /* Boot_Shoot.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Boot_Shoot.obj; sourceTree = "<group>"; };
+		C8D8E8D11F9EA09F00A0D764 /* Boot_Shoot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boot_Shoot.jpg; sourceTree = "<group>"; };
+		C8D8E8D31F9EA15400A0D764 /* Boot_Shoot2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boot_Shoot2.jpeg; sourceTree = "<group>"; };
+		C8D8E8D51F9EA42D00A0D764 /* boot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boot.jpg; sourceTree = "<group>"; };
+		C8D8E8D71F9EA48800A0D764 /* blackboot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackboot.jpeg; sourceTree = "<group>"; };
+		C8D8E8D91F9EA52D00A0D764 /* brownboot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brownboot.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +130,20 @@
 				C8CCFA081F9AA56C00250E47 /* AppDelegate.swift */,
 				C8CCFA0A1F9AA56C00250E47 /* art.scnassets */,
 				C8CCFA0C1F9AA56C00250E47 /* ViewController.swift */,
+				C8D8E8CD1F9E9F9F00A0D764 /* ShuttleDiffuseMap_.jpg */,
+				C8D8E8C91F9E5A4700A0D764 /* Tennis shoe_0.jpeg */,
+				C8D8E8D31F9EA15400A0D764 /* Boot_Shoot2.jpeg */,
+				C8D8E8D51F9EA42D00A0D764 /* boot.jpg */,
+				C8D8E8D71F9EA48800A0D764 /* blackboot.jpeg */,
+				C8D8E8D91F9EA52D00A0D764 /* brownboot.jpg */,
+				C8D8E8CF1F9EA09E00A0D764 /* Boot_Shoot.obj */,
+				C8D8E8C71F9E5A4100A0D764 /* Tennis shoe.obj */,
+				C8D8E8D11F9EA09F00A0D764 /* Boot_Shoot.jpg */,
+				C8D8E8CB1F9E9DE900A0D764 /* space-shuttle.obj */,
+				C8D8E8C51F9E4D7400A0D764 /* TeaCup.obj */,
+				C8D8E8C31F9E4D2500A0D764 /* egg-chair.obj */,
+				C809A6AB1F9AB83500A247E9 /* bicycle.dae */,
+				C8CCFA381F9AA90500250E47 /* checkerboard.png */,
 				C8CCFA0E1F9AA56C00250E47 /* Main.storyboard */,
 				C8CCFA111F9AA56C00250E47 /* Assets.xcassets */,
 				C8CCFA131F9AA56C00250E47 /* LaunchScreen.storyboard */,
@@ -236,8 +278,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8CCFA0B1F9AA56C00250E47 /* art.scnassets in Resources */,
+				C8D8E8D81F9EA48800A0D764 /* blackboot.jpeg in Resources */,
+				C8D8E8D41F9EA15500A0D764 /* Boot_Shoot2.jpeg in Resources */,
+				C8D8E8D01F9EA09E00A0D764 /* Boot_Shoot.obj in Resources */,
+				C8D8E8DA1F9EA52E00A0D764 /* brownboot.jpg in Resources */,
+				C8D8E8C41F9E4D2600A0D764 /* egg-chair.obj in Resources */,
 				C8CCFA151F9AA56C00250E47 /* LaunchScreen.storyboard in Resources */,
+				C809A6AC1F9AB8F400A247E9 /* bicycle.dae in Resources */,
 				C8CCFA121F9AA56C00250E47 /* Assets.xcassets in Resources */,
+				C8D8E8CE1F9E9F9F00A0D764 /* ShuttleDiffuseMap_.jpg in Resources */,
+				C8D8E8C61F9E4D7400A0D764 /* TeaCup.obj in Resources */,
+				C8D8E8CC1F9E9DEA00A0D764 /* space-shuttle.obj in Resources */,
+				C8D8E8D21F9EA09F00A0D764 /* Boot_Shoot.jpg in Resources */,
+				C8D8E8D61F9EA42D00A0D764 /* boot.jpg in Resources */,
+				C8D8E8C81F9E5A4100A0D764 /* Tennis shoe.obj in Resources */,
+				C8D8E8CA1F9E5A4700A0D764 /* Tennis shoe_0.jpeg in Resources */,
+				C8CCFA391F9AB02500250E47 /* checkerboard.png in Resources */,
 				C8CCFA101F9AA56C00250E47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
